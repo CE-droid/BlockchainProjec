@@ -12,8 +12,8 @@ def external(request):
         inp=request.POST.get('message')
      #    if inp :
      #    l=[inp,respon]
-        process = run([sys.executable,'C:\\Users\\HP\\Downloads\\BlockchainProject\\django\\BlockchainProject\\blockChin\\test.py',inp],stdout=PIPE,text=True).stdout.strip(" ") 
-        process2 = run([sys.executable,'C:\\Users\\HP\\Downloads\\BlockchainProject\\django\\BlockchainProject\\blockChin\\test2.py',inp,'yes'],stdout=PIPE,text=True).stdout.strip(" ") 
+        process = run([sys.executable,'BlockchainProjec\\blockChin\\test.py',inp],stdout=PIPE,text=True).stdout.strip(" ") 
+        process2 = run([sys.executable,'BlockchainProjec\\blockChin\\test2.py',inp,'yes'],stdout=PIPE,text=True).stdout.strip(" ") 
          
      #    data={ 
      #      "data1":process,
